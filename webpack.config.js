@@ -27,6 +27,7 @@ module.exports = {
   },
   devServer: {
     hot: true,
+    historyApiFallback: true,
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js'],
